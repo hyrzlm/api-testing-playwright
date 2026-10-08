@@ -1,0 +1,20 @@
+{
+  "name": "api-testing-playwright",
+  "version": "1.0.0",
+  "description": "REST API tests for Restful Booker with Playwright, TypeScript and zod schemas",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc"
+  },
+  "author": "Hyrzl Macabulos",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.5"
+  },
+  "private": true
+}
